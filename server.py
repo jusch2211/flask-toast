@@ -14,4 +14,4 @@ def trigger_toast():
     return redirect(url_for('index'))  # Weiterleitung zur Startseite
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8080)
